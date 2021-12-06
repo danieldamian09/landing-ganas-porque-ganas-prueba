@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container-ganas-porque-ganas {
+  width: 805px;
+  background-image: url(./img/fondo.png);
+  height: 1858px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ganas-porque-ganas-logo {
+  width: 455px;
+  height: 348px;
+  margin-top: 35px;
+}
+
+.ganas-porque-ganas-nuevo-concurso {
+  width: 432px;
+  height: 51px;
+  margin-top: 37px;
+}
+
+.ganas-porque-ganas-text {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  margin-top: 28px;
+  font-size: 32px;
+  line-height: 38px;
+  width: 564px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.ganas-porque-ganas-text-2 {
+  margin-top: 31px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FDD95B;
+}
+
+.ganas-porque-ganas-premios {
+  margin-top: 19px;
+}
+
+.ganas-porque-ganas-detalle-premios {
+  width: 316px;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FDD95B;
+  margin-top: 20px;
+}
+
+.ganas-porque-ganas-participar {
+  margin-top: 26px;
+  width: 410px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.ganas-porque-ganas-como {
+  width: 563px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  margin-top: 27px;
+}
+
+.ganas-porque-ganas-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 19px;
+}
+
+
+.ganas-porque-ganas-pasos {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  width: 500px;
+  color: #fff;
+  margin: 18px auto 19px;
+}
+
+.ganas-porque-ganas-chance {
+  width: 710px;
+  margin-top: 41px;
+}
+
+.ganas-porque-ganas-chance-text {
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.ganas-porque-ganas-cta {
+  background: #fff;
+  border: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  display: block;
+  margin-top: 10px;
+}
+
+.ganas-porque-ganas-no-te-pierdas {
+  width: 710px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ganas-porque-ganas-no-te-pierdas-text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FF0000;
+  width: 295px;
+}
