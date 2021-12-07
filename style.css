@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 100%;
 }
 
@@ -154,9 +154,9 @@ body{
 }
 
 
-.ganas-porque-ganas-cta:hover{
+.ganas-porque-ganas-cta:hover {
   background: #000;
-  color: #fff;
+  color: #ffffff !important;
 }
 
 .ganas-porque-ganas-no-te-pierdas {
@@ -175,4 +175,87 @@ body{
   text-transform: uppercase;
   color: #FF0000;
   width: 18.43rem;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .container-ganas-porque-ganas {
+    width: 100%;
+  }
+
+  .ganas-porque-ganas-logo {
+    width: 85%;
+    margin-top: 1rem;
+    height: auto;
+  }
+
+  .ganas-porque-ganas-nuevo-concurso {
+    width: 80%;
+    height: auto;
+    margin-top: 1.31rem;
+  }
+
+  .ganas-porque-ganas-text {
+    width: 85%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .ganas-porque-ganas-text-2{
+    width: 90%;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .ganas-porque-ganas-premios{
+    width: 85%;
+  }
+
+    .ganas-porque-ganas-detalle-premios{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 6rem;
+  }
+
+  .ganas-porque-ganas-participar{
+    width: 90%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+    .ganas-porque-ganas-como {
+    width: 90%;
+  }
+
+  .ganas-porque-ganas-title{
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .ganas-porque-ganas-pasos {
+    width: 85%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .ganas-porque-ganas-chance {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .ganas-porque-ganas-chance-text{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .ganas-porque-ganas-no-te-pierdas {
+    width: 95%;
+    margin-top: 5px;
+    /* display: none; */
+  }
+
+  .ganas-porque-ganas-no-te-pierdas-text {
+    width: 60%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #fff;
+  }
 }
