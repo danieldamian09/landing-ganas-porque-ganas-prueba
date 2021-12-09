@@ -8,10 +8,12 @@ body {
   width: 100%;
 }
 
-
+.contenedor{
+  height: 121.05rem;
+}
 .container-ganas-porque-ganas {
   width: 50.31rem;
-  background-image: url("https://pmi--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0684H00000HUUJj&operationContext=DELIVERY&contentId=05T4H00000uYp3l&page=0&d=/a/4H00000263Ch/RA8uWuh8cYp3WYKWPPoF636UinsSXC6CA4vNBNHK0nY&oid=00D58000000cA7m&dpt=null&viewId=");
+  background-image: url("https://pmi--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0684H00000HUVFE&operationContext=DELIVERY&contentId=05T4H00000uYsAV&page=0&d=/a/4H00000263Dz/C8cDaqIalGdU21awbS84uGcmvg7AVC1gKNXdXBVf01g&oid=00D58000000cA7m&dpt=null&viewId=");
   height: 116.12rem;
   display: flex;
   flex-direction: column;
@@ -177,9 +179,39 @@ body {
   width: 18.43rem;
 }
 
+.ganas-porque-ganas-fondo-mobile{
+  display: none;
+}
+
+.ganas-porque-ganas-aclaratoria{
+  width: 50.31rem;
+  height: 4.93rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.ganas-porque-ganas-aclaratoria-text{
+  font-family: Rubik, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FF0000;
+  padding: 4.93px;
+}
+
 @media (min-width: 280px) and (max-width: 576px) {
+
+  .contenedor{
+    height: auto;
+  }
+
   .container-ganas-porque-ganas {
     width: 100%;
+    height: auto;
   }
 
   .ganas-porque-ganas-logo {
@@ -212,7 +244,7 @@ body {
     .ganas-porque-ganas-detalle-premios{
     font-size: 1.5rem;
     line-height: 2rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
 
   .ganas-porque-ganas-participar{
@@ -239,23 +271,33 @@ body {
   .ganas-porque-ganas-chance {
     width: 90%;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .ganas-porque-ganas-chance-text{
     font-size: 1.8rem;
     line-height: 2.2rem;
+    text-align: center;
   }
 
   .ganas-porque-ganas-no-te-pierdas {
-    width: 95%;
-    margin-top: 5px;
-    /* display: none; */
+    display: none;
   }
 
-  .ganas-porque-ganas-no-te-pierdas-text {
-    width: 60%;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    color: #fff;
+  .ganas-porque-ganas-fondo-mobile{
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .ganas-porque-ganas-aclaratoria{
+    width: 100%;
+  }
+
+  .ganas-porque-ganas-aclaratoria-text{
+    font-size: 0.8rem;
   }
 }
